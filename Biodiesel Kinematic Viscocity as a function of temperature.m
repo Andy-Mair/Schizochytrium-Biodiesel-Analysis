@@ -16,5 +16,6 @@ c1=32.97;
 d1=-0.01549;
 nfit=(a1*exp(b1*T)+(c1*exp(d1*T)));
 
+% Plots the fitting functions against temperature
 plot (T, mfit);
 plot (T, nfit);
