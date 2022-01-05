@@ -1,4 +1,4 @@
-%Diesel density, visco & ST
+%Diesel density, visco & ST where T is temperature degC, Tk is temperature degK, pd is diesel density, nd is diesel viscocity, and yd is diesel surface tension
 T=0:20:400;
 Tk=T+273.15;
 pd=840.3-0.66331*T;
